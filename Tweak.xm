@@ -23,11 +23,3 @@
 }
 %end
 
-
-%hook MPMoviePlayerController
-
-- (BOOL)shouldAutoplay{
-	return TRUE;
-}
-
-%end
